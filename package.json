@@ -1,0 +1,31 @@
+{
+  "name": "middy-mongoose-connector",
+  "version": "1.0.0",
+  "description": "Connection middleware for mongoose.js",
+  "main": "dist/index.js",
+  "author": "Bailey Tincher <bailey.tincher@btin.io> (https://www.btin.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baileytincher/middy-mongoose-connector.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "commit": "npm run lint && git add . && git commit && git push",
+    "lint": "eslint --fix \"src/**/*.js\" && prettier --write \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^6.10.0",
+    "prettier": "^1.19.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "peerDependencies": {
+    "mongoose": "*"
+  }
+}
