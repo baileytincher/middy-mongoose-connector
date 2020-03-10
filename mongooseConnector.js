@@ -6,12 +6,12 @@ const log = (shouldLog, message) => (shouldLog ? console.log(message) : null);
  * Database connections in Lambda can persist across multiple function calls,
  * and for performance you likely do not want to close it after each use.
  *
- * @param {Object} param
- * @param {Object} param.mongoose An instance of mongoose
- * @param {String} param.databaseURI The full MongoDB connection string
- * @param {mongoose.connectionOptions} param.connectionOpts Options object passed to mongoose.connect
- * @param {Boolean} param.shouldClose Whether or not to close the database connection after execution
- * @param {Boolean} param.shouldLog Whether or not to log opening/closing status for connections
+ * @param {Object} opts
+ * @param {Object} opts.mongoose An instance of mongoose
+ * @param {String} opts.databaseURI The full MongoDB connection string
+ * @param {mongoose.connectionOptions} opts.connectionOpts Options object passed to mongoose.connect
+ * @param {Boolean} opts.shouldClose Whether or not to close the database connection after execution
+ * @param {Boolean} opts.shouldLog Whether or not to log opening/closing status for connections
  *
  * @return {Object} The middleware.
  */
