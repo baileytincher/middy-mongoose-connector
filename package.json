@@ -1,6 +1,6 @@
 {
   "name": "middy-mongoose-connector",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Connection middleware for mongoose.js",
   "keywords": ["mongoose", "MongoDB", "Mongo", "middy", "serverless"],
   "main": "lib/index.js",
