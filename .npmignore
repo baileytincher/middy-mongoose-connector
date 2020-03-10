@@ -1,5 +1,2 @@
-src/
-yarn-error.log
-.babelrc
-.eslintrc
-.prettierrc
+*
+!lib

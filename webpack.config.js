@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: 'mongooseConnector.js',
   output: {
-    path: path.resolve('dist'),
-    filename: 'index.js',
+    path: path.resolve('lib'),
+    filename: 'mongooseConnector.js',
     libraryTarget: 'commonjs2',
   },
   devtool: false,
