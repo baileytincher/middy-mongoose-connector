@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: 'mongooseConnector.js',
+  entry: './mongooseConnector.js',
   output: {
     path: path.resolve('lib'),
     filename: 'mongooseConnector.js',
