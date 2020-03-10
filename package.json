@@ -2,6 +2,7 @@
   "name": "middy-mongoose-connector",
   "version": "0.1.0",
   "description": "Connection middleware for mongoose.js",
+  "keywords": ["mongoose", "MongoDB", "Mongo", "middy", "serverless"],
   "main": "lib/index.js",
   "author": "Bailey Tincher <bailey.tincher@btin.io> (https://www.btin.io)",
   "license": "MIT",
