@@ -29,6 +29,7 @@
     "webpack-cli": "^3.3.11"
   },
   "peerDependencies": {
-    "mongoose": "5.x"
+    "mongoose": "5.x",
+    "@middy/core": ""
   }
 }
