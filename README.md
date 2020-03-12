@@ -1,5 +1,7 @@
 # Mongoose Connector
 
+`yarn add middy-mongoose-connector`
+
 This is a [mongoose.js](https://mongoosejs.com/) connection middleware for the [middy.js](https://middy.js.org/) middleware framework.
 
 ```javascript
